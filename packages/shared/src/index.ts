@@ -215,21 +215,3 @@ export const SLA_HOURS: Record<IssueCategory, number> = {
   [IssueCategory.Other]: 72,
 };
 
-// ---------------------------------------------------------------------------
-// Re-export everything from one barrel
-// ---------------------------------------------------------------------------
-
-export type {
-  GeoPoint,
-  GeoPolygon,
-  User,
-  Ward,
-  Department,
-  Issue,
-  StatusHistory,
-  Upvote,
-  Escalation,
-  ApiResponse,
-  ApiError,
-  PaginatedResponse,
-};
