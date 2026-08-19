@@ -25,6 +25,6 @@
       "@civictrack/shared": ["../../packages/shared/src/index.ts"]
     }
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "test"]
+  "include": ["src/**/*", "scripts/**/*", "test/**/*", "migrations/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
